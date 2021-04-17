@@ -56,4 +56,8 @@ def company_has_strong_growth(company, df):
 
 
 def company_is_strong_vs_competitors(company, df):
-    pass
+    '''Look at the company's feature set vs. it's competitors.
+    For each company, loop through competitor list and find out rank
+    of company in terms of the feature set. If it's in top 3 for example,
+    might be worth investigation'''
+    return False
